@@ -32,8 +32,8 @@ int main()
 
         printf("Min = %d, Max = %d \n", min, max);
     }
-    // for (int l = 0; l < n; l++)
-    //     printf("Numbers = %d", num[l]);
+    for (int l = 0; l < n; l++)
+        printf("Numbers = %d", num[l]);
 
     // printf("Minimum: %d\n", min);
     // printf("Maximum: %d\n", max);
