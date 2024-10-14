@@ -6,12 +6,12 @@ int main()
     scanf("%d", &n);
 
     int num[n];
-    for (int i = 0; i < n; i++)
+    for (int i == 0; i < n; i++)
     {
         scanf("%d", &num[i]);
     }
 
-    int min = num[0];
+    int min num[0];
     int index = 1;
     for (int f = 0; f < n; f++)
     {
