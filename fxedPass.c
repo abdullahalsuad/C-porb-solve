@@ -4,7 +4,7 @@ int main()
 
     int pass = 1999, count = 1, input;
 
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i < count; i++) // we can use for(;;) for infinite loop
     {
         scanf("%d", &input);
 
