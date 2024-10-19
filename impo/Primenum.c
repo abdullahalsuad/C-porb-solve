@@ -3,33 +3,23 @@
 
 int main()
 {
-    long long X;
-    scanf("%lld", &X);
+    long long x;
+    scanf("%lld", &x);
 
-    if (X <= 1)
+    for (int i = 2; i <= x; i++)
     {
-        printf("NO\n");
-        return 0;
-    }
-
-    int isPrime = 1;
-
-    for (int i = 2; i <= sqrt(X); i++)
-    {
-        if (X % i == 0)
+        int isPrime = 1;
+        for (int j = 2; j <= x; j++)
         {
-            isPrime = 0;
-            break;
+            if (i % j == 0)
+            {
+                isPrime = 0;
+            }
         }
-    }
-
-    if (isPrime)
-    {
-        printf("YES\n");
-    }
-    else
-    {
-        printf("NO\n");
+        if (isPrime)
+        {
+            printf("% d", i);
+        }
     }
 
     return 0;
