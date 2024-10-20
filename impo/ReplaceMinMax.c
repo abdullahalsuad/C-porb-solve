@@ -29,14 +29,12 @@ int main()
         {
             max_index = num[i];
         }
-
-        printf("Min = %d, Max = %d \n", min, max);
     }
     int temp = A[min_index];
     A[min_index] = A[max_index];
     A[max_index] = temp;
 
-    for (int i = 0; i < N; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("%d", A[i]);
         if (i < n - 1)
