@@ -13,18 +13,18 @@ int main()
 
         // int len = strlen(words);
         int len = 0;
-        for (int j = 0; words[j] != '\0'; i++)
+        for (int j = 0; words[j] != '\0'; j++)
         {
             len++;
         }
 
         if (len > 10)
         {
-            printf("%s%d%s\n", words[0], len - 2, words[len - 1]);
+            printf("%c%d%c\n", words[0], len - 2, words[len - 1]);
         }
         else
         {
-            printf("%d\n", words)
+            printf("%s\n", words);
         }
     }
 }
