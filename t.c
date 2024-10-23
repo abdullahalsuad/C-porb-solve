@@ -1,20 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-    int num;
+    char a[100] = "mec";
+    char b[100] = "mep";
 
-    if (num == 1)
-    {
-        printf("NO");
-    }
+    int cmp = strcmp(b, a);
 
-    if (num % num == 0)
-    {
-        printf("YES")
-    }
-    else
-    {
-        printf("NO")
-    }
+    printf("%d\n", cmp);
 }
