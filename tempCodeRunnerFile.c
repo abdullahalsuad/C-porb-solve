@@ -19,7 +19,7 @@ int main()
     {
         c[i] = b[j];
     }
-    c[len] = '\0';
+    a[len] = '\0';
 
     char temp = a[0];
     a[0] = b[0];
