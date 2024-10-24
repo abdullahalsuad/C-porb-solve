@@ -35,7 +35,7 @@ int main()
         scanf("%d", &phone[i]);
         if (X <= phone[i] && Y >= phone[i])
         {
-            count++
+            count++;
         }
     }
     printf("%d", count);
