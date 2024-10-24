@@ -3,7 +3,7 @@
 
 int main()
 {
-    char a[10], b[10], c[10];
+    char a[11], b[11], c[11];
     scanf("%s%s", a, b);
 
     int len_a = strlen(a);
