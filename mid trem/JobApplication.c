@@ -44,7 +44,7 @@ int main()
     int candidates[n];
     for (int i = 0; i < n; i++)
     {
-        scanf("d", &candidates[i]);
+        scanf("%d", &candidates[i]);
         if (candidates[i] < 1)
         {
             printf("Entry-level candidate\n");

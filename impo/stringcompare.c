@@ -18,10 +18,6 @@ int main()
     {
         printf("%s\n", b);
     }
-    else
-    {
-        printf("%s\n", a);
-    }
 
     return 0;
 }

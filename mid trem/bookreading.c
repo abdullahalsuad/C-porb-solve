@@ -20,8 +20,8 @@
 int main()
 {
     // N = total book T = total time
-    int N, T;
-    scanf("%d%d", &N, &T);
+    long long N, T;
+    scanf("%lld%lld", &N, &T);
 
     int times[N];
     for (int i = 0; i < N; i++)
