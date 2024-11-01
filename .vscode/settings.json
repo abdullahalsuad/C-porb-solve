@@ -3,7 +3,8 @@
   "files.associations": {
     "stdio.h": "c",
     "stdlib.h": "c",
-    "FixedPass.C": "cpp"
+    "FixedPass.C": "cpp",
+    "math.h": "c"
   },
   "editor.defaultFormatter": "ms-vscode.cpptools",
   "editor.formatOnPaste": true,
