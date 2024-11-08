@@ -1,18 +1,13 @@
 #include <stdio.h>
 
-void fun(char *x, char *y)
+void printRe(char *x, char *y)
 {
-    printf("%s\n", x);
-    x[0] = 'c';
-    x = strcpy(x, y);
+    printRe(n);
+    printf("I love Recursion");
 }
 
 int main()
 {
-    char a[10] = "air";
-    char b[10] = "apple";
-
-    fun(a, b);
-
-    printf("%s\n", a);
+    int n;
+    scanf("%d", n);
 }
