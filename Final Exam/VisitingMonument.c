@@ -17,3 +17,40 @@
 // Sample Output 0
 // 1 2 3 2 1
 // 1 2 3 4 3 2 1
+#include <stdio.h>
+
+void increasingPrint(int x, int n)
+{
+    if (x > n)
+    {
+        return;
+    }
+
+    printf("%d ", x);
+
+    increasingPrint(x + 1, n);
+}
+void decreasingPrint(int x, int n)
+{
+    if (x > n)
+    {
+        return;
+    }
+    decreasingPrint(x + 1, n - 1);
+    printf("%d ", x);
+}
+
+int main()
+{
+    int t;
+    scanf("%d", &t);
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        scanf("%d", &n);
+
+        increasingPrint(1, n);
+        decreasingPrint(1, n - 1);
+        printf("\n")
+    }
+}
