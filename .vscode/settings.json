@@ -4,7 +4,8 @@
     "stdio.h": "c",
     "stdlib.h": "c",
     "FixedPass.C": "cpp",
-    "math.h": "c"
+    "math.h": "c",
+    "string.h": "c"
   },
   "editor.defaultFormatter": "ms-vscode.cpptools",
   "editor.formatOnPaste": true,
