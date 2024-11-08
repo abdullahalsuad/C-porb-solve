@@ -14,6 +14,7 @@ int main()
             scanf("%d", &matrix[i][j]);
         }
     }
+
     int flag = 1;
     for (int i = 0; i < n; i++)
     {
